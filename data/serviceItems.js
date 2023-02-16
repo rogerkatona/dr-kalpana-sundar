@@ -227,7 +227,7 @@ const serviceItems = [
         featuredHeader:"About",
         date:"2021-08-10",
         title: "Dr. Sundar achieved the life of her dreams",
-        description: "Sh had a successful medical practice, a family, and material possessions that indicated high achievement. And yet she felt unfulfilled and unsatisfied. Dr. Sundar struggled with burnout from living a life focused on overachieving. After battling cancer at the age of thirty-four, her perspective changed. Recognizing that she was bound to her career, her relationships, and to society’s expectations, she felt trapped in a life that didn’t feel like her own. Through the pages of Beauty Unbound, share Dr. Sundar’s  journey from the dark places of self-repression to the freedom of becoming her most authentic self.",
+        description: "She had a successful medical practice, a family, and material possessions that indicated high achievement. And yet she felt unfulfilled and unsatisfied. Dr. Sundar struggled with burnout from living a life focused on overachieving. After battling cancer at the age of thirty-four, her perspective changed. Recognizing that she was bound to her career, her relationships, and to society’s expectations, she felt trapped in a life that didn’t feel like her own. Through the pages of Beauty Unbound, share Dr. Sundar’s  journey from the dark places of self-repression to the freedom of becoming her most authentic self.",
         src: '/image/about-02.jpg',
         isButtonActive:'false',
         buttonText:'Download Abstract',
