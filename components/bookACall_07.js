@@ -9,7 +9,7 @@ export default function BookACall_07() {
                 </div>
                 <div className="py-4">
                     <div className="text-xl text-gray.700 font-medium">
-                        Did you know that professional women are constantly “struggling with the juggle”?
+                        Professional women are constantly “struggling with the juggle”.
                     </div>
                 </div>
                 <div className="">

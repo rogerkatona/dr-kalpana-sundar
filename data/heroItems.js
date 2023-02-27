@@ -2,7 +2,7 @@ const heroItems = [
     {
         id:0,
         label: "conference speaker",
-        description: "As the medical landscape continues to evolve during a global pandemic, it is more important than ever to keep our medical professionals engaged and productive.",
+        description: "As the professional landscape continues to evolve after a global pandemic, it is more important than ever to maximize your professional potential",
     },
     {
         id:1,

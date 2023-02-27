@@ -17,13 +17,13 @@ export default function Speaker() {
             <header className="bg-hero_speaker min-h-screen25vh max-h-screen25vh bg-cover bg-left bg-no-repeat flex flex-col justify-center">
                 <Hero id={0}/>
             </header>
-            <Offerings type="speaker"/>
+{/*            <Offerings type="speaker"/>*/}
             <div className="flex flex-row justify-center font-bebasNeue text-5xl text-gray.700 bg-gray.200 py-12">
                 Opening Keynotes
             </div>
             <Services type="speaker" subtype="opening_keynote"/>
             <Quote id={1}/>
-            <div className="flex flex-row justify-center font-bebasNeue text-5xl text-gray.700 bg-gray.200 py-12">
+{/*            <div className="flex flex-row justify-center font-bebasNeue text-5xl text-gray.700 bg-gray.200 py-12">
                 Breakout Sessions
             </div>
             <Services type="speaker" subtype="breakout_session"/>
@@ -31,8 +31,11 @@ export default function Speaker() {
             <div className="flex flex-row justify-center font-bebasNeue text-5xl text-gray.700 bg-gray.200 py-12">
                 Closing Keynotes
             </div>
-            <Services type="speaker" subtype="closing_keynote"/>
-            <BookACall_01/>
+            <Services type="speaker" subtype="closing_keynote"/>*/}
+            <div className="bg-gray.050">
+                <BookACall_01/>
+            </div>
+
         </Layout>
     )
 }

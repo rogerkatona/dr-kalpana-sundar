@@ -1,23 +1,23 @@
 const serviceItems = [
-/*    {
+    {
         id:0,
         featuredID:1,
         type:"speaker",
         subtype:"opening_keynote",
-        number:"01",
+        number:"04",
         featured:"false",
         featuredHREF:"/speaker",
         featuredURL:"/ conference speaker",
         featuredHeader:"opening keynote",
         featuredButtonLabel:"See All Offerings",
-        date:"2021-08-10",
+        date:"2012-08-10",
         title: "How to improve patient satisfaction metrics by making the first patient YOU!",
         description: "In this keynote, Dr. Sundar addresses how self care can create a positive impact on patient care. She discusses how spending time to take care of your needs impacts all of your interactions throughout the day.",
         src: '/image/services-01.jpg',
         isButtonActive:'true',
         buttonText:'Download Abstract',
         buttonHref:'/pdf/workshop03-abstract.pdf',
-    },*/
+    },
 /*    {
         id:1,
         type:"speaker",
