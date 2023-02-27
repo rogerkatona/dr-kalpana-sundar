@@ -14,7 +14,7 @@ export default function Hero(props) {
                 <section
                     key={filteredItem.id}
                     className="">
-                   <div className="">
+                   <div className="text-center">
                         <div className='font-bebasNeue md:text-7xl text-6xl uppercase text-white.100 '>{filteredItem.label}</div>
                         <div className="text-gray.300 font-medium text-center ">{filteredItem.description}</div>
                     </div>
