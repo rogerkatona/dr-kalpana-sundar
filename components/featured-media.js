@@ -37,8 +37,8 @@ export default function FeaturedMedia(props) {
                                 <div className='text-xl text-gray.700'>
                                     {filteredItem.title}
                                 </div>
-                                <div className={` text-xs uppercase ${filteredItem.type === 'about'  ? 'hidden' : 'block'}`}>
-                                    <Date dateString={filteredItem.date} />
+                                <div className={` text-xs text-gray.500 ${filteredItem.type === 'about'  ? 'hidden' : 'block'}`}>
+                                    {filteredItem.location} | <Date dateString={filteredItem.date} />
                                 </div>
                                 <div className='text-gray.700 py-4 '>{filteredItem.description}</div>
                                 <div className="flex flex-row">

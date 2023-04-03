@@ -9,10 +9,10 @@ export default function EventItem(props) {
 
     return (
         <>
-            <section className="py-6 bg-gray.100">
+            <section className="py-6 ">
                 {filteredItem
                     .sort((a, b) => {
-                        if (a.date < b.date) {
+                        if (a.date > b.date) {
                             return 1
                         } else {
                             return -1
@@ -21,7 +21,7 @@ export default function EventItem(props) {
                     .map(filteredItem => (
                         <section
                             key={filteredItem.id}
-                            className={`flex flex-col p-6 ${filteredItem.featuredID % 2 !== 0  ? 'bg-gray.100' : 'bg-gray.100'}`}>
+                            className={`flex flex-col py-12 ${filteredItem.featuredID % 2 !== 0  ? 'bg-gray.050' : 'bg-gray.100'}`}>
 
                             <div className={`flex  flex-col  max-w-7xl mx-auto  ${filteredItem.featuredID % 2 !== 0  ? 'lg:flex-row' : 'lg:flex-row-reverse'}`}>
                                 <div className=''>
@@ -38,8 +38,8 @@ export default function EventItem(props) {
                                     </div>
 
                                     <div className='text-gray.700 py-4 '>{filteredItem.description}</div>
-                                    <div className="pb-4">Paris France | March 9, 2023</div>
-
+                                    <div className="pb-4">{filteredItem.location} | <Date dateString={filteredItem.date} />
+                                    </div>
                                     <div className="flex flex-row">
                                         <div className={`${filteredItem.isButtonActive === 'true'  ? 'block' : 'hidden'} `}>
                                             <a href={filteredItem.buttonHref} target="_blank" rel="noreferrer">
