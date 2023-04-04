@@ -15,7 +15,7 @@ export default function Features(props) {
                     .map(filteredItem => (
                         <section
                             key={filteredItem.id}
-                            className={`flex flex-col p-12 ${filteredItem.featuredID % 2 !== 0  ? 'bg-gray.100' : 'bg-gray.100'}`}>
+                            className={`flex flex-col md:p-12 p-6 ${filteredItem.featuredID % 2 !== 0  ? 'bg-gray.100' : 'bg-gray.050'}`}>
 
                             <div className={`flex  flex-col  max-w-7xl mx-auto  ${filteredItem.featuredID % 2 !== 0  ? 'lg:flex-row' : 'lg:flex-row-reverse'}`}>
                                 <div className=''>

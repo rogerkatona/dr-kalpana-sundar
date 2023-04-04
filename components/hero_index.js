@@ -10,14 +10,12 @@ export default function HeroIndex() {
 {/*                <div className="font-bebasNeue text-gray.200 text-xl">
                     Featured video
                 </div>*/}
-                <div className="font-bebasNeue text-gray.100 md:text-4xl text-4xl ">
-                    Dr. Kalpana Sundar
-                </div>
+
                 <div className="font-bebasNeue text-gray.300 md:text-5xl text-5xl">
                    Professional Women. Empowerment. Leadership. Entrepreneurship.
                 </div>
 
-                <div className="flex space-x-2">
+                <div className="flex space-x-2 pt-6">
                         <a
                             className="hover:bg-rust.800 text-white.100 text-xs uppercase hover:text-gray-50 px-4 py-3 bg-rust.500 rounded-lg"
                             href="https://calendly.com/drkalpanasundar"

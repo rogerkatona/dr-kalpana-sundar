@@ -3,7 +3,7 @@ export default function BookACall_04() {
 
     return (
         <>
-            <section className="flex flex-col lg:py-12 lg:px-0  p-12 lg:mx-auto lg:max-w-7xl">
+            <section className="flex flex-col lg:py-12 lg:px-0 md:p-12 p-6 lg:mx-auto lg:max-w-7xl">
                 <div className="font-bebasNeue text-3xl text-gray.700 pb-4">
                     Did you know?
                 </div>
@@ -20,7 +20,7 @@ export default function BookACall_04() {
                         Most physicians will never seek help for problems in their personal lives.  Some healthcare systems are taking  initiatives to provide much needed support to their physicians. Book a call to see how Dr. Sundar can help your institution support and retain  your qualified female professionals.
                     </div>
                 </div>
-                <div className="pt-8">
+                <div className="pt-8 md:pb-0 pb-4">
                     <a
                         href="https://calendly.com/drkalpanasundar"
                         target="_blank"

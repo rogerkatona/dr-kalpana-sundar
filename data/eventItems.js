@@ -55,9 +55,9 @@ const eventItems = [
         title: "California HR Conference 2023",
         description: "Dr. Sundar will be giving the closing keynote on May 10th, 2023, for the Women’s Leadership track entitled Feminine Leadership",
         src: '/image/event-03.png',
-        isButtonActive:'false',
-        buttonText:'Contact for more information',
-        buttonHref:'',
+        isButtonActive:'true',
+        buttonText:'Register for this event',
+        buttonHref:'https://cahrconference.org/register2023/?_zs=qROXl1&_zl=DnWt8',
     },
     {
         id:4,
@@ -75,9 +75,9 @@ const eventItems = [
         title: "Holistic Lifestyle Expo",
         description: "Dr. Sundar will be a guest speaker at Holistic Lifestyle Conference and Expo on May 31st, 2023.",
         src: '/image/event-04.jpg',
-        isButtonActive:'false',
-        buttonText:'Contact for more information',
-        buttonHref:'https://vimeo.com/762327523',
+        isButtonActive:'true',
+        buttonText:'Register for this event',
+        buttonHref:'https://www.holisticlifestyleexpo.com/events/holistic-lifestyle-expo',
     },
     {
         id:5,
@@ -95,9 +95,9 @@ const eventItems = [
         title: "GSNH2023",
         description: "Dr. Sundar will be giving a Keynote at the Global Summit on Nursing and Healthcare 2023",
         src: '/image/event-05.jpg',
-        isButtonActive:'false',
-        buttonText:'Contact for more information',
-        buttonHref:'https://vimeo.com/762327523',
+        isButtonActive:'true',
+        buttonText:'Register for this event',
+        buttonHref:'https://www.thescientistt.com/2023/nursing-healthcare/register',
     },
 ];
 

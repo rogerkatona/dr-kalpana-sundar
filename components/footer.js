@@ -8,7 +8,7 @@ export default function Footer() {
 
 
     return (
-        <footer className="flex flex-col justify-center lg:items-center lg:px-0 px-12 bg-blue.700 text-white py-48 space-y-6">
+        <footer className="flex flex-col justify-center lg:items-center lg:px-0 px-6 bg-blue.700 text-white py-24 space-y-6">
             <section>
                 <Link href='/'>
                     <a>

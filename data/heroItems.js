@@ -32,7 +32,7 @@ const heroItems = [
     {
         id:6,
         label: "events",
-        description: "I am excited to participate with you and exceed your expectations as we work together to deliver an outstanding participant experience at your event! I look forward to hearing from you.",
+        description: "Dr. Sundar works with event planners to deliver an outstanding participant experience at your event.  Creating the experience starts with choosing a speaker who is willing to inspire, share and be vulnerable with the audience.",
     },
     {
         id:7,

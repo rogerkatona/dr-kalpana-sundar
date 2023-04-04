@@ -53,6 +53,7 @@ export default function Header() {
                     </section>
                     <section className={`${active ? '' : 'hidden'} lg:flex lg:flex-row lg:my-0 my-12`}>
                             <NavBar navItems={navItems}/>
+                        <div className={`${active ? 'pt-6' : 'pt:0'}`}>
                                 <a
                                     href="https://calendly.com/drkalpanasundar"
                                     target="_blank"
@@ -60,6 +61,7 @@ export default function Header() {
                                     className="hover:bg-blue.400 hover:text-white.100 text-xs text-blue.700 uppercase px-3 py-2 lg:ml-3 lg:mt-0 mt-6 bg-rust.050 rounded-lg">
                                     Book a call
                                 </a>
+                        </div>
                     </section>
                 </div>
             </div>

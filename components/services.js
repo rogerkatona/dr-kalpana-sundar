@@ -9,7 +9,7 @@ export default function Services(props) {
 
     return (
         <>
-                <section className="flex flex-col px-12 pt-12 bg-gray.100">
+                <section className="flex flex-col md:px-12 px-6 pt-12 bg-gray.100">
                     {filteredItem
                         .filter(filteredItem => filteredItem.subtype === props.subtype)
                         .sort((a, b) => {

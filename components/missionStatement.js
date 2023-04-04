@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function MissionStatement() {
     return (
         <section className="max-w-7xl mx-auto mx-12">
-            <div className="flex flex-col justify-center xl:px-0 px-12 py-12">
+            <div className="flex flex-col justify-center xl:px-0 md:p-12 p-6">
                 <div className="font-bebasNeue md:text-4xl text-3xl text-gray.700">
                     International speaker . Master Certified Professional Coach
                 </div>

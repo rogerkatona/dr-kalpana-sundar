@@ -17,8 +17,8 @@ export default function Quote(props) {
                             key={filteredItem.id}
                             className="flex flex-row  max-w-7xl mx-auto">
 
-                            <section className={`my-20 max-w-7xl mx-auto ${filteredItem.id % 2 === 0  ? 'bg-tan.100' : 'bg-teal.100'}`}>
-                                <div className="flex flex-col justify-center items-center p-12 pt-6 relative">
+                            <section className={`md:my-24 my-8 mt-16 max-w-7xl mx-auto ${filteredItem.id % 2 === 0  ? 'bg-tan.100' : 'bg-teal.100'}`}>
+                                <div className="flex flex-col justify-center items-center md:p-12 p-6  relative">
                                     <div className='flex flex-shrink-0 absolute -top-10'>
                                         <img
                                             src={filteredItem.src}
@@ -28,7 +28,7 @@ export default function Quote(props) {
                                         />
                                     </div>
                                     <div className="flex flex-col pt-12">
-                                        <div className="text-lg">&quot;{filteredItem.text}&quot;</div>
+                                        <div className="">&quot;{filteredItem.text}&quot;</div>
                                         <div className="font-bold mt-3"> {filteredItem.author}</div>
                                         <div className="font-light"> {filteredItem.title}</div>
                                     </div>

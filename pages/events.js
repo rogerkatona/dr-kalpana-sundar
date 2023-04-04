@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
 import Hero from "../components/hero";
-import GridMedia from "../components/grid-media";
 import Quote from "../components/quote";
 import EventItem from "../components/eventItem";
 import BookACall_07 from "../components/bookACall_07";

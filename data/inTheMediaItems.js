@@ -170,9 +170,9 @@ const inTheMediaItems = [
         title: "California HR Conference 2023",
         description: "Dr. Sundar will be giving the closing keynote on May 10th, 2023, for the Women’s Leadership track entitled Feminine Leadership",
         src: '/image/event-03.png',
-        isButtonActive:'false',
-        buttonText:'Watch Video',
-        buttonHref:'',
+        isButtonActive:'true',
+        buttonText:'Register for this event',
+        buttonHref:'https://cahrconference.org/register2023/?_zs=qROXl1&_zl=DnWt8',
     },
 ];
 
