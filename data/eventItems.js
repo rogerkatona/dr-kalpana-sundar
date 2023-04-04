@@ -15,9 +15,9 @@ const eventItems = [
         title: "Premier Annual Summit on Women in Safety and Medicine",
         description: "Dr. Sundar will be giving a keynote on Feminine Entrepreneurship on March 9th, 2023 in Paris, France at the Premier Annual Summit on Women in Safety and Medicine.",
         src: '/image/event-01.jpg',
-        isButtonActive:'true',
+        isButtonActive:'false',
         buttonText:'Contact for more information!',
-        buttonHref:'https://vimeo.com/762327523',
+        buttonHref:'',
     },
     {
         id:2,

@@ -9,7 +9,7 @@ export default function EventItem(props) {
 
     return (
         <>
-            <section className="py-6 ">
+            <section className="">
                 {filteredItem
                     .sort((a, b) => {
                         if (a.date > b.date) {
@@ -21,7 +21,7 @@ export default function EventItem(props) {
                     .map(filteredItem => (
                         <section
                             key={filteredItem.id}
-                            className={`flex flex-col py-12 ${filteredItem.featuredID % 2 !== 0  ? 'bg-gray.050' : 'bg-gray.100'}`}>
+                            className={`flex flex-col py-12 md:px-12 px-6 ${filteredItem.featuredID % 2 !== 0  ? 'bg-gray.050' : 'bg-gray.100'}`}>
 
                             <div className={`flex  flex-col  max-w-7xl mx-auto  ${filteredItem.featuredID % 2 !== 0  ? 'lg:flex-row' : 'lg:flex-row-reverse'}`}>
                                 <div className=''>

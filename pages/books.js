@@ -11,7 +11,7 @@ export default function Books() {
             <Head>
                 <title>{siteTitle}</title>
             </Head>
-            <header className="bg-hero-books min-h-screen25vh max-h-screen25vh bg-cover bg-left bg-no-repeat flex flex-col justify-center">
+            <header className="bg-hero-books md:min-h-screen25vh md:max-h-screen25vh bg-cover bg-left bg-no-repeat flex flex-col justify-center">
                 <Hero id={7}/>
             </header>
             {/*            <div className='font-bebasNeue text-6xl uppercase text-gray.700 flex flex-row justify-center py-12'>Welcome!</div>
