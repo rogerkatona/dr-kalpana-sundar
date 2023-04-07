@@ -1,4 +1,4 @@
-import { motion, easeIn } from "framer-motion"
+import { motion} from "framer-motion"
 
 export default function HeroIndex() {
 
@@ -15,7 +15,6 @@ export default function HeroIndex() {
                     initial={{ opacity: 0, x: 0, y: 15 }}
                     animate={{ opacity: 1, x: 0, y: 0 }}
                     transition={{
-                        ease: "easeIn",
                         duration: 1,
                         delay: 0.4,
                     }}
