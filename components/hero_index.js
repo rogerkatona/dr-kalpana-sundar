@@ -12,7 +12,7 @@ export default function HeroIndex() {
                 </div>*/}
 
                 <motion.div
-                    initial={{ opacity: 0, x: 0, y: 15 }}
+                    initial={{ opacity: 0, x: 0, y: 20 }}
                     animate={{ opacity: 1, x: 0, y: 0 }}
                     transition={{
                         duration: 1,
