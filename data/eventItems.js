@@ -94,7 +94,7 @@ const eventItems = [
         date:"2023-11-21",
         title: "GSNH2023",
         description: "Dr. Sundar will be giving a Keynote at the Global Summit on Nursing and Healthcare 2023",
-        src: '/image/event-05.jpg',
+        src: '/image/event-05.png',
         isButtonActive:'true',
         buttonText:'Register for this event',
         buttonHref:'https://www.thescientistt.com/2023/nursing-healthcare/register',

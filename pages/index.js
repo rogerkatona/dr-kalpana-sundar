@@ -63,7 +63,7 @@ export default function Home({allPostsData}) {
                       <div className='md:w-4/5 w-full lg:pl-6 pt-6 lg:pt-0'>
                         <div className='text-gray.300'>
                           <Link href={`/posts/${featured.id}`}>
-                            <a className='hover:underline uppercase text-xs'>/ Blog</a>
+                            <span className='hover:underline uppercase text-xs'>/ Blog</span>
                           </Link>
                         </div>
                         <div className='font-bebasNeue text-4xl text-gray.200 pb-4'>

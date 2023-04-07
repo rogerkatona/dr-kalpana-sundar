@@ -11,7 +11,7 @@ export default function Footer() {
         <footer className="flex flex-col justify-center lg:items-center lg:px-0 px-6 bg-blue.700 text-white py-24 space-y-6">
             <section>
                 <Link href='/'>
-                    <a>
+                    <span>
                         <div className="flex flex-row items-center ">
 
                             <svg
@@ -68,7 +68,7 @@ export default function Footer() {
 
                             </svg>
                         </div>
-                    </a>
+                    </span>
                 </Link>
             </section>
 

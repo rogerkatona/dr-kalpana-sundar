@@ -1,4 +1,5 @@
 const colors = require('tailwindcss/colors')
+const {scale} = require("tailwindcss/lib/plugins");
 
 module.exports = {
   images: {
@@ -12,6 +13,15 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      keyframes: {
+        ping: {
+          "0%, 100%": { transform: scale(1)},
+          "50%": {transform: scale(1.25) },
+        },
+      },
+      animation: {
+        ping: "ping 1s",
+      },
       minHeight: theme => ({
         "screen90vh": "calc(90vh)",
         "screen60vh": "calc(60vh)",

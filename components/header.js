@@ -19,7 +19,7 @@ export default function Header() {
             <div className="lg:flex lg:flex-row lg:justify-between lg:items-center lg:mx-auto lg:max-w-7xl py-6 xl:px-0 lg:px-12 px-6">
                 <section>
                     <Link href='/'>
-                        <a>
+                        <span>
                             <div className="flex flex-row items-center">
                                 <img
                                     src="/image/logo.svg"
@@ -27,7 +27,7 @@ export default function Header() {
                                     alt={'Logo'}
                                 />
                             </div>
-                        </a>
+                        </span>
                     </Link>
                 </section>
                 <div>

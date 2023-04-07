@@ -14,7 +14,7 @@ export default function MissionStatement() {
                 <div className="flex row filter transition duration-500 ease-in-out hover:brightness-75 pt-4">
                     <Link
                         href="https://www.linkedin.com/in/drkalpanasundar">
-                        <a>
+                        <span>
                             <img
                                 className="mr-2"
                                 src="/image/icon-linkedin.svg"
@@ -22,11 +22,11 @@ export default function MissionStatement() {
                                 width={28}
                                 alt="LinkedIn"
                             />
-                        </a>
+                        </span>
                     </Link>
                     <Link
                         href="https://www.instagram.com/kalpana.unbound/">
-                        <a>
+                        <span>
                             <img
                                 className="mr-2"
                                 src="/image/icon-instagram.svg"
@@ -34,18 +34,18 @@ export default function MissionStatement() {
                                 width={28}
                                 alt="Instagram"
                             />
-                        </a>
+                        </span>
                     </Link>
                     <Link
                         href="https://www.youtube.com/channel/UCa1ChYX6QpDaxkhE-sngD5w">
-                        <a>
+                        <span>
                             <img
                                 src="/image/icon-youtube.svg"
                                 height={28}
                                 width={28}
                                 alt="YouTube"
                             />
-                        </a>
+                        </span>
                     </Link>
                 </div>
             </div>
