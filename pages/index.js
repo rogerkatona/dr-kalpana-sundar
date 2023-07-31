@@ -11,6 +11,7 @@ import Link from "next/link";
 import Date from "../components/date";
 import ClientLogos from "../components/clientLogos";
 import FeaturedMedia from "../components/featured-media";
+import ModalVideo from "../components/modal-video";
 
 
 export async function getStaticProps() {
@@ -92,7 +93,6 @@ export default function Home({allPostsData}) {
                     </div>
                   </section>
               )}
-
     </Layout>
   )
 }

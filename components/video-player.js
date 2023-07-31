@@ -1,4 +1,3 @@
-import Link from "next/link";
 import ModalVideo from "./modal-video";
 import useModal from "../lib/useModal";
 
@@ -8,14 +7,14 @@ export default function VideoPlayer() {
         <>
             <section>
                 <div>
-                    <Link href=''>
+                    <a href=''>
                         <button
                             onClick={toggle}
                             className="hover:bg-hoverLink text-white  text-2xl uppercase hover:text-gray-50 p-4 bg-link hover:border-white "
                         >
                             See Video
                         </button>
-                    </Link>
+                    </a>
                 </div>
             </section>
             <section>
