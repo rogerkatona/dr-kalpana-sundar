@@ -1,7 +1,7 @@
 // components/VideoBackground.js
 const VideoBackground = () => {
     return (
-        <div className="opacity-25">
+        <section className="opacity-50">
             <video
                 className=""
                 autoPlay loop muted playsInline>
@@ -9,7 +9,7 @@ const VideoBackground = () => {
                 {/* Add more <source> elements for other video formats if needed */}
                 Your browser does not support the video tag.
             </video>
-        </div>
+        </section>
     );
 };
 

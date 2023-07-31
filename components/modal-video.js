@@ -8,7 +8,7 @@ const ModalVideo = ({ isShowing, hide }) => isShowing ? ReactDOM.createPortal(
 
     <>
         <div className="relative" aria-modal aria-hidden tabIndex={-1} role="dialog">
-            <div className="w-full h-full z-20 bg-blue.800 fixed top-0 left-0 flex flex-row">
+            <div className="w-full h-full z-20 bg-black.100 fixed top-0 left-0 flex flex-row">
 
                 <section className="fixed right-0">
                     <div className="modal-close cursor-pointer z-20 p-4">
