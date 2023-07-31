@@ -30,7 +30,7 @@ const ModalVideo = ({ isShowing, hide }) => isShowing ? ReactDOM.createPortal(
 
                             controls={true}
                             playing={true}
-                            url="https://youtu.be/uHmUL09JPb4"
+                            url="https://www.youtube.com/watch?v=FTueUxZcB4c"
                         />
                         <div>&nbsp;</div>
                     </div>
